@@ -1,8 +1,8 @@
 <template>
   <div class="app-shell">
     <header class="topbar">
-      <div class="title">Clínica • Chat & Terapias</div>
-      <div class="subtitle">para psicólogos e pacientes</div>
+      <div class="title">Love on Board</div>
+      <div class="subtitle">acompanhamento acolhedor para terapeutas e pacientes</div>
     </header>
 
     <main class="content">
@@ -15,6 +15,9 @@
       </RouterLink>
       <RouterLink to="/terapias" class="tab" :class="{ active: route.name==='terapias' }">
         🧠<small>Terapias</small>
+      </RouterLink>
+      <RouterLink to="/diario" class="tab" :class="{ active: route.name==='diario' }">
+        📓<small>Diário</small>
       </RouterLink>
     </nav>
   </div>
